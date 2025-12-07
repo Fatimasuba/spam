@@ -31,7 +31,7 @@ def reenviar_mensajes(client):
     try:
         print("Obteniendo mensajes...")
         messages = client.iter_messages(grupo_origen_id)
-        total_mensajes = 0
+        total_mensajes = 5
 
         chats = client.get_dialogs()
         for chat in chats:
@@ -64,5 +64,6 @@ if __name__ == "__main__":
             sleep(900)  # Esperar 15 minutos (900 segundos) antes de volver a reenviar mensajes
         except Exception as ex:
             print(f"Error general: {ex}")
+
 
 
