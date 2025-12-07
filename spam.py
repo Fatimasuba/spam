@@ -10,7 +10,7 @@ api_id = '25400019'
 api_hash = 'd6e7f2c3aeabf9f4fbcbe69b21f79afb'
 
 
-grupo_origen_id = @botspamltdf2 #<----AQUI EL GRUPO  DE ORIGEN 
+grupo_origen_id = -1002056567349 #<----AQUI EL GRUPO  DE ORIGEN 
 
 tu_numero_telefono = '+51902803237'
 
@@ -64,4 +64,5 @@ if __name__ == "__main__":
             sleep(900)  # Esperar 15 minutos (900 segundos) antes de volver a reenviar mensajes
         except Exception as ex:
             print(f"Error general: {ex}")
+
 
